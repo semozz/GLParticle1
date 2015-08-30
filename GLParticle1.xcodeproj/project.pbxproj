@@ -14,6 +14,13 @@
 		060000A81B86E34F0092AD77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060000A71B86E34F0092AD77 /* Images.xcassets */; };
 		060000AB1B86E34F0092AD77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060000A91B86E34F0092AD77 /* LaunchScreen.xib */; };
 		060000B71B86E34F0092AD77 /* GLParticle1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 060000B61B86E34F0092AD77 /* GLParticle1Tests.m */; };
+		060000C11B86E3A20092AD77 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060000C01B86E3A20092AD77 /* GLKit.framework */; };
+		060000C41B86E5DF0092AD77 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060000C31B86E5DF0092AD77 /* MainViewController.m */; };
+		060000CF1B86EF1A0092AD77 /* EmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 060000CE1B86EF1A0092AD77 /* EmitterShader.m */; };
+		060000D31B86F0280092AD77 /* ShaderProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 060000D21B86F0280092AD77 /* ShaderProcessor.mm */; };
+		060000D61B870D8B0092AD77 /* SnowShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 060000D51B870D8B0092AD77 /* SnowShader.m */; };
+		060000E21B87153E0092AD77 /* snow.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 060000DF1B87153E0092AD77 /* snow.vsh */; };
+		060000E31B87153E0092AD77 /* snow.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 060000E01B87153E0092AD77 /* snow.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,21 @@
 		060000B01B86E34F0092AD77 /* GLParticle1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLParticle1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		060000B51B86E34F0092AD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		060000B61B86E34F0092AD77 /* GLParticle1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLParticle1Tests.m; sourceTree = "<group>"; };
+		060000C01B86E3A20092AD77 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		060000C21B86E5DF0092AD77 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		060000C31B86E5DF0092AD77 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; usesTabs = 1; };
+		060000C61B86E95C0092AD77 /* EmitterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterTemplate.h; sourceTree = "<group>"; };
+		060000C81B86EB500092AD77 /* Emitter.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.vsh; sourceTree = "<group>"; };
+		060000CA1B86ED730092AD77 /* Emitter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.fsh; sourceTree = "<group>"; };
+		060000CE1B86EF1A0092AD77 /* EmitterShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterShader.m; sourceTree = "<group>"; };
+		060000D01B86EF410092AD77 /* EmitterShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterShader.h; sourceTree = "<group>"; };
+		060000D11B86F0280092AD77 /* ShaderProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProcessor.h; sourceTree = "<group>"; };
+		060000D21B86F0280092AD77 /* ShaderProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShaderProcessor.mm; sourceTree = "<group>"; };
+		060000D41B870D8B0092AD77 /* SnowShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowShader.h; sourceTree = "<group>"; };
+		060000D51B870D8B0092AD77 /* SnowShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowShader.m; sourceTree = "<group>"; };
+		060000DF1B87153E0092AD77 /* snow.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = snow.vsh; sourceTree = "<group>"; usesTabs = 1; };
+		060000E01B87153E0092AD77 /* snow.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = snow.fsh; sourceTree = "<group>"; };
+		060000E11B87153E0092AD77 /* SnowEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowEffect.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060000C11B86E3A20092AD77 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 		0600008E1B86E34F0092AD77 = {
 			isa = PBXGroup;
 			children = (
+				060000C01B86E3A20092AD77 /* GLKit.framework */,
 				060000991B86E34F0092AD77 /* GLParticle1 */,
 				060000B31B86E34F0092AD77 /* GLParticle1Tests */,
 				060000981B86E34F0092AD77 /* Products */,
@@ -81,14 +105,23 @@
 		060000991B86E34F0092AD77 /* GLParticle1 */ = {
 			isa = PBXGroup;
 			children = (
+				060000DC1B87103E0092AD77 /* Shader */,
 				0600009E1B86E34F0092AD77 /* AppDelegate.h */,
 				0600009F1B86E34F0092AD77 /* AppDelegate.m */,
 				060000A11B86E34F0092AD77 /* ViewController.h */,
 				060000A21B86E34F0092AD77 /* ViewController.m */,
 				060000A41B86E34F0092AD77 /* Main.storyboard */,
+				060000C21B86E5DF0092AD77 /* MainViewController.h */,
+				060000C31B86E5DF0092AD77 /* MainViewController.m */,
+				060000D11B86F0280092AD77 /* ShaderProcessor.h */,
+				060000D21B86F0280092AD77 /* ShaderProcessor.mm */,
 				060000A71B86E34F0092AD77 /* Images.xcassets */,
 				060000A91B86E34F0092AD77 /* LaunchScreen.xib */,
 				0600009A1B86E34F0092AD77 /* Supporting Files */,
+				060000CE1B86EF1A0092AD77 /* EmitterShader.m */,
+				060000D01B86EF410092AD77 /* EmitterShader.h */,
+				060000D41B870D8B0092AD77 /* SnowShader.h */,
+				060000D51B870D8B0092AD77 /* SnowShader.m */,
 			);
 			path = GLParticle1;
 			sourceTree = "<group>";
@@ -117,6 +150,35 @@
 				060000B51B86E34F0092AD77 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		060000DC1B87103E0092AD77 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				060000DE1B8710540092AD77 /* Snow */,
+				060000DD1B8710440092AD77 /* Emitter */,
+			);
+			name = Shader;
+			sourceTree = "<group>";
+		};
+		060000DD1B8710440092AD77 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				060000C61B86E95C0092AD77 /* EmitterTemplate.h */,
+				060000C81B86EB500092AD77 /* Emitter.vsh */,
+				060000CA1B86ED730092AD77 /* Emitter.fsh */,
+			);
+			name = Emitter;
+			sourceTree = "<group>";
+		};
+		060000DE1B8710540092AD77 /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				060000DF1B87153E0092AD77 /* snow.vsh */,
+				060000E01B87153E0092AD77 /* snow.fsh */,
+				060000E11B87153E0092AD77 /* SnowEffect.h */,
+			);
+			name = Snow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +263,8 @@
 			files = (
 				060000A61B86E34F0092AD77 /* Main.storyboard in Resources */,
 				060000AB1B86E34F0092AD77 /* LaunchScreen.xib in Resources */,
+				060000E21B87153E0092AD77 /* snow.vsh in Resources */,
+				060000E31B87153E0092AD77 /* snow.fsh in Resources */,
 				060000A81B86E34F0092AD77 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060000D31B86F0280092AD77 /* ShaderProcessor.mm in Sources */,
 				060000A31B86E34F0092AD77 /* ViewController.m in Sources */,
 				060000A01B86E34F0092AD77 /* AppDelegate.m in Sources */,
+				060000CF1B86EF1A0092AD77 /* EmitterShader.m in Sources */,
+				060000D61B870D8B0092AD77 /* SnowShader.m in Sources */,
 				0600009D1B86E34F0092AD77 /* main.m in Sources */,
+				060000C41B86E5DF0092AD77 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +486,7 @@
 				060000BC1B86E34F0092AD77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		060000BD1B86E34F0092AD77 /* Build configuration list for PBXNativeTarget "GLParticle1Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +495,7 @@
 				060000BF1B86E34F0092AD77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
